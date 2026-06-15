@@ -1,0 +1,8 @@
+### KALP HASTALIĞI RİSK FAKTÖRLERİ ANALİZİ - ÖZET BULGULAR DOKÜMANI
+
+* Veri Seti Profili: Toplam 327 birey incelenmiş; %33.03'ünün kalp hastası olduğu saptanmıştır[cite: 1].
+* Yaş Faktörü: 50 yaş üstü bireylerde hastalık riski %51.15 ile en üst seviyededir[cite: 1].
+* Tansiyon Tehlikesi: Hipertansiyon hastalarının %58.14'ü aynı zamanda kalp hastasıdır[cite: 1].
+* Sporun Etkisi: Haftada 5 gün ve üzeri spor yapanların %100'ü tamamen sağlıklıdır[cite: 1].
+* Model Sonucu: Lojistik Regresyon %77.27 doğrulukla en iyi performansı vermiştir.
+* Klinik Uyarı: Modellerin duyarlılık (Recall) seviyesi düşük olduğundan ve veriler anket beyanına dayandığından klinik teşhis amaçlı kesinlikle kullanılamaz[cite: 1].

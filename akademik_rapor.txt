@@ -1,0 +1,21 @@
+# BÜYÜK VERİ ANALİZİ FİNAL PROJE RAPORU
+Veri Seti: dATA.csv  
+Yöntem: Keşifçi Veri Analizi, İstatistiksel Risk İncelemesi ve Sınıflandırma Modelleri  
+
+### I. GİRİŞ & VERİ TANIMI
+Bu çalışmada, bireylerin yaşam şekilleri ve klinik geçmiş bilgilerini içeren `dATA.csv` veri seti analiz edilmiştir. Veri seti 327 katılımcıya ait 21 farklı niteliği içermektedir[cite: 1].
+
+### II. VERİ ÖN İŞLEME VE İSTATİSTİKLER
+* Eksik Değerler: Veri setinde eksik veya tanımsız değer (NaN/Null) bulunmamaktadır.
+* Mükerrer Kayıtlar: Tekrar eden satır bulunmamaktadır.
+* Sınıf Dağılımı: Popülasyonun %33.03'ü (108 kişi) kalp hastası, %66.97'si (219 kişi) sağlıklıdır[cite: 1].
+* Yaş Etkisi: 35 yaş altında kalp rahatsızlığı oranı %11.49 iken, 50 yaş üstünde bu oran %51.15'e çıkmaktadır[cite: 1].
+* Hipertansiyon Etkisi: Hipertansiyon hastası bireylerin %58.14'ünün kalp hastası olduğu görülmektedir[cite: 1].
+* Fiziksel Aktivite: Haftada 5 veya daha fazla gün spor yapan bireylerin %100'ü sağlıklıdır[cite: 1].
+
+### III. MODELLEME VE PERFORMANS
+* Lojistik Regresyon %77.27 doğruluk (Accuracy) oranı ile Random Forest modeline (%74.24) göre daha başarılı olmuştur.
+* Sağlık alanında en hayati metrik Recall'dur[cite: 1]. Gerçek hastaları kaçırmamak (False Negative durumunu azaltmak) hayat kurtarır[cite: 1]. Modellerimizin Recall değeri %40 dolaylarında kaldığı için klinik ortamda kullanımı yetersizdir.
+
+### IV. NİHAİ SONUÇ
+Veriler hastaların kişisel beyanlarına (self-reported) dayandığı ve örneklem kısıtlı olduğu için, bu veri setiyle gerçek hayatta klinik karar kesinlikle verilemez[cite: 1].
